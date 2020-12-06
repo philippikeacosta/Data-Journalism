@@ -1,8 +1,8 @@
 <%- include('global/header', {title: "About"}); %>
 
 
-<img src="images/FrancesLanding.jpg" alt="Landing Page 1" width="600">
-<img src="images/FrancesMicro.jpg" alt="Micro Page 1" width="600">
+<img src="images/FrancesLanding.jpg" alt="Landing Page 1" width="600" height="500">
+<img src="images/FrancesMicro.jpg" alt="Micro Page 1" width="600" height="500">
 
 <h3> Understandability </h3>
 <ul>
@@ -31,6 +31,52 @@
   <li> The graph on the bottom left of the micro summary page provides a comparison that isn't completely relevant to the larger topic</li>
 </ul>
 
+<img src="images/PhilipLanding.png" alt="Landing Page 2" width="600">
+<img src="images/PhilipMicro.png" alt="Micro Page 2" width="600">
+
+<h3> Understandability </h3>
+<ul>
+  <li> Maps give an intuitive way to display large amounts of information</li>
+  <li> Color scheme makes the diagrams understandable and engaging </li>
+</ul>
+
+<h3> Discoverability </h3>
+<ul>
+  <li> The comparison between both data sets is clear on the landing page and on the micro summaries </li>
+  <li> Landing page maps are clickable and interacting with them will direct the user to the appropriate page </li>
+</ul>
+
+<h3> Simplicity </h3>
+<ul>
+  <li> Maps display large quantities of data in a compact and readable format </li>
+  <li> Amount of text is limited with a greater focus places on maps and figures </li>
+</ul>
+
+<h3> Achievability </h3>
+<ul>
+  <li> D3's choropleth map makes making maps very achievable</li>
+  <li> Other forms of charts and text are also intuitive to make</li>
+</ul>
+
+<h2> Final Design</h2>
+<ul>
+  <li>
+    Landing page uses side by side maps with election results and life expectancies respectively
+  </li>
+  <li>
+    A interactive combined map incorporates both data sets and allows users to navigate to individual state pages
+  </li>
+  <li>
+    State micro pages begin with a brief text-based summary and comparison to national data
+  </li>
+  <li>
+    Below that is a diagram that compares state data to national data
+  </li>
+  <li>
+    Underneath that are side by side diagrams of the individual data with a detailed text summary in the middle
+  </li>
+</ul>
+<%- include ('global/footer'); %>
 </body>
 
 </html>
