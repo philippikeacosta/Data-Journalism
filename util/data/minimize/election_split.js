@@ -10,7 +10,7 @@ let election = election_csv.split("\n");
 election.forEach(function(election) {
   let state_info = election.split(',');
   let state = {};
-  state['name'] = state_info[0];
+  state['state'] = state_info[0];
   state['result'] = state_info[1];
   state['Dvotes'] = state_info[3];
   state['Rvotes'] = state_info[4];
