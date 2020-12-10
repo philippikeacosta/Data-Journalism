@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let states = [];
 
-let election_csv = fs.readFileSync('election.csv', 'utf8');
+let election_csv = fs.readFileSync('../../../data/original/election.csv', 'utf8');
 
 let election = election_csv.split("\n");
 
@@ -22,4 +22,4 @@ election.forEach(function(election) {
   states.push(state);
 });
 
-fs.writeFileSync('election.json', JSON.stringify(states), 'utf8');
+fs.writeFileSync('../../../data/clean/election.json', JSON.stringify(states), 'utf8');
