@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let states = [];
 
-let life_csv = fs.readFileSync('life.csv', 'utf8');
+let life_csv = fs.readFileSync('../../../data/original/life.csv', 'utf8');
 
 let life = life_csv.split("\n");
 
@@ -17,4 +17,4 @@ life.forEach(function(life) {
   states.push(state);
 });
 
-fs.writeFileSync('life.json', JSON.stringify(states), 'utf8');
+fs.writeFileSync('../../../data/clean/life.json', JSON.stringify(states), 'utf8');
