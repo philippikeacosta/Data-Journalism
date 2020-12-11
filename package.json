@@ -1,0 +1,35 @@
+{
+  "name": "data-journalism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generator.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs": "0.0.1-security",
+    "jest": "^26.6.3",
+    "less": "^3.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:html": "node generator.js",
+    "compile": "npm run compile:html",
+    "test": "jest",
+    "build": "npm run compile && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippikeacosta/Data-Journalism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philippikeacosta/Data-Journalism/issues"
+  },
+  "homepage": "https://github.com/philippikeacosta/Data-Journalism#readme",
+  "jest": {
+    "verbose": true,
+    "testMatch": [
+      "**/test/**/*.test.js"
+    ]
+  }
+}
