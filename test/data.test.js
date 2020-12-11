@@ -17,6 +17,9 @@ describe('checking data format', () => {
   test("No duplicate states in either data set", () =>{
 
   });
+  test("Every entry begins with a state name(No entries begin with non-states)", () =>{
+
+  });
 });
 
 describe('checking data completeness', () => {

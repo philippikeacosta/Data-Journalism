@@ -1,1 +1,213 @@
-[{"state":"State","avg":"Life Expectancy"},{"state":"Alabama","avg":"75.5"},{"state":"Alaska","avg":"78.8"},{"state":"Arizona","avg":"79.9"},{"state":"Arkansas","avg":"76"},{"state":"California","avg":"81.3"},{"state":"Colorado","avg":"80.5"},{"state":"Connecticut","avg":"80.9"},{"state":"Delaware","avg":"78.7"},{"state":"District of Columbia","avg":"78.5"},{"state":"Florida","avg":"80.1"},{"state":"Georgia","avg":"77.7"},{"state":"Hawaii","avg":"82"},{"state":"Idaho","avg":"79.4"},{"state":"Illinois","avg":"79.3"},{"state":"Indiana","avg":"77.4"},{"state":"Iowa","avg":"79.6"},{"state":"Kansas","avg":"78.6"},{"state":"Kentucky","avg":"75.9"},{"state":"Louisiana","avg":"76"},{"state":"Maine","avg":"79"},{"state":"Maryland","avg":"79.6"},{"state":"Massachusetts","avg":"80.7"},{"state":"Michigan","avg":"78.2"},{"state":"Minnesota","avg":"81"},{"state":"Mississippi","avg":"74.9"},{"state":"Missouri","avg":"77.6"},{"state":"Montana","avg":"78.6"},{"state":"Nebraska","avg":"79.6"},{"state":"Nevada","avg":"78.4"},{"state":"New Hampshire","avg":"80.1"},{"state":"New Jersey","avg":"80.5"},{"state":"New Mexico","avg":"78.4"},{"state":"New York","avg":"81"},{"state":"North Carolina","avg":"78.1"},{"state":"North Dakota","avg":"79.7"},{"state":"Ohio","avg":"77.6"},{"state":"Oklahoma","avg":"75.8"},{"state":"Oregon","avg":"79.6"},{"state":"Pennsylvania","avg":"78.6"},{"state":"Rhode Island","avg":"79.9"},{"state":"South Carolina","avg":"77"},{"state":"South Dakota","avg":"79.4"},{"state":"Tennessee","avg":"76.3"},{"state":"Texas","avg":"78.8"},{"state":"Utah","avg":"79.8"},{"state":"Vermont","avg":"80"},{"state":"Virginia","avg":"79.4"},{"state":"Washington","avg":"80.3"},{"state":"West Virginia","avg":"75.3"},{"state":"Wisconsin","avg":"79.6"},{"state":"Wyoming","avg":"78.8"},{"state":""}]
+[
+  {
+    "state": "State",
+    "avg": "Life Expectancy"
+  },
+  {
+    "state": "Alabama",
+    "avg": "75.5"
+  },
+  {
+    "state": "Alaska",
+    "avg": "78.8"
+  },
+  {
+    "state": "Arizona",
+    "avg": "79.9"
+  },
+  {
+    "state": "Arkansas",
+    "avg": "76"
+  },
+  {
+    "state": "California",
+    "avg": "81.3"
+  },
+  {
+    "state": "Colorado",
+    "avg": "80.5"
+  },
+  {
+    "state": "Connecticut",
+    "avg": "80.9"
+  },
+  {
+    "state": "Delaware",
+    "avg": "78.7"
+  },
+  {
+    "state": "District of Columbia",
+    "avg": "78.5"
+  },
+  {
+    "state": "Florida",
+    "avg": "80.1"
+  },
+  {
+    "state": "Georgia",
+    "avg": "77.7"
+  },
+  {
+    "state": "Hawaii",
+    "avg": "82"
+  },
+  {
+    "state": "Idaho",
+    "avg": "79.4"
+  },
+  {
+    "state": "Illinois",
+    "avg": "79.3"
+  },
+  {
+    "state": "Indiana",
+    "avg": "77.4"
+  },
+  {
+    "state": "Iowa",
+    "avg": "79.6"
+  },
+  {
+    "state": "Kansas",
+    "avg": "78.6"
+  },
+  {
+    "state": "Kentucky",
+    "avg": "75.9"
+  },
+  {
+    "state": "Louisiana",
+    "avg": "76"
+  },
+  {
+    "state": "Maine",
+    "avg": "79"
+  },
+  {
+    "state": "Maryland",
+    "avg": "79.6"
+  },
+  {
+    "state": "Massachusetts",
+    "avg": "80.7"
+  },
+  {
+    "state": "Michigan",
+    "avg": "78.2"
+  },
+  {
+    "state": "Minnesota",
+    "avg": "81"
+  },
+  {
+    "state": "Mississippi",
+    "avg": "74.9"
+  },
+  {
+    "state": "Missouri",
+    "avg": "77.6"
+  },
+  {
+    "state": "Montana",
+    "avg": "78.6"
+  },
+  {
+    "state": "Nebraska",
+    "avg": "79.6"
+  },
+  {
+    "state": "Nevada",
+    "avg": "78.4"
+  },
+  {
+    "state": "New Hampshire",
+    "avg": "80.1"
+  },
+  {
+    "state": "New Jersey",
+    "avg": "80.5"
+  },
+  {
+    "state": "New Mexico",
+    "avg": "78.4"
+  },
+  {
+    "state": "New York",
+    "avg": "81"
+  },
+  {
+    "state": "North Carolina",
+    "avg": "78.1"
+  },
+  {
+    "state": "North Dakota",
+    "avg": "79.7"
+  },
+  {
+    "state": "Ohio",
+    "avg": "77.6"
+  },
+  {
+    "state": "Oklahoma",
+    "avg": "75.8"
+  },
+  {
+    "state": "Oregon",
+    "avg": "79.6"
+  },
+  {
+    "state": "Pennsylvania",
+    "avg": "78.6"
+  },
+  {
+    "state": "Rhode Island",
+    "avg": "79.9"
+  },
+  {
+    "state": "South Carolina",
+    "avg": "77"
+  },
+  {
+    "state": "South Dakota",
+    "avg": "79.4"
+  },
+  {
+    "state": "Tennessee",
+    "avg": "76.3"
+  },
+  {
+    "state": "Texas",
+    "avg": "78.8"
+  },
+  {
+    "state": "Utah",
+    "avg": "79.8"
+  },
+  {
+    "state": "Vermont",
+    "avg": "80"
+  },
+  {
+    "state": "Virginia",
+    "avg": "79.4"
+  },
+  {
+    "state": "Washington",
+    "avg": "80.3"
+  },
+  {
+    "state": "West Virginia",
+    "avg": "75.3"
+  },
+  {
+    "state": "Wisconsin",
+    "avg": "79.6"
+  },
+  {
+    "state": "Wyoming",
+    "avg": "78.8"
+  },
+  {
+    "state": ""
+  }
+]
