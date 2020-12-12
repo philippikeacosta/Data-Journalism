@@ -1,9 +1,5 @@
 [
   {
-    "state": "State",
-    "avg": "Life Expectancy"
-  },
-  {
     "state": "Alabama",
     "avg": "75.5"
   },
@@ -206,8 +202,5 @@
   {
     "state": "Wyoming",
     "avg": "78.8"
-  },
-  {
-    "state": ""
   }
 ]

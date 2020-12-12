@@ -2,6 +2,7 @@
   {
     "state": "state",
     "result": "called",
+    "result": "D",
     "Dvotes": "dem_votes",
     "Rvotes": "rep_votes",
     "Ovotes": "other_votes",
@@ -12,6 +13,7 @@
   {
     "state": "U.S. Total",
     "result": "No",
+    "result": "D",
     "Dvotes": "81281890.00",
     "Rvotes": "74222108.00",
     "Ovotes": "2884357.00",
@@ -22,6 +24,7 @@
   {
     "state": "15 Key Battlegrounds",
     "result": "",
+    "result": "D",
     "Dvotes": "31910788.00",
     "Rvotes": "33002842.00",
     "Ovotes": "950274.00",
@@ -32,6 +35,7 @@
   {
     "state": "Non-Battlegrounds",
     "result": "",
+    "result": "D",
     "Dvotes": "49371102.00",
     "Rvotes": "41219266.00",
     "Ovotes": "1934083.00",
@@ -42,6 +46,7 @@
   {
     "state": "15 Key Battlegrounds",
     "result": "",
+    "result": "D",
     "Dvotes": "",
     "Rvotes": "",
     "Ovotes": "",
@@ -201,7 +206,7 @@
   },
   {
     "state": "Non-Battlegrounds",
-    "result": "",
+    "result": "D",
     "Dvotes": "",
     "Rvotes": "",
     "Ovotes": "",
@@ -618,8 +623,5 @@
     "Dpercent": "0.27",
     "Rpercent": "0.70",
     "Opercent": "0.04"
-  },
-  {
-    "state": ""
   }
 ]
