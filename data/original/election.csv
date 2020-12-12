@@ -1,4 +1,3 @@
-state,called,final,dem_votes,rep_votes,other_votes,dem_percent,rep_percent,other_percent,dem_this_margin,margin_shift,vote_change,stateid,EV,X,Y,State_num,Center_X,Center_Y,,2016 Margin,Total 2016 Votes
 U.S. Total,D,Yes,81282376,74222576,2890419,0.51,0.47,0.02,0.05,0.02,0.16,,,,,,,,,0.020994559,"136,639,848"
 Arizona,D,Yes,1672143,1661686,53497,0.49,0.49,0.02,0,0.04,0.32,AZ,11,2,2,4,205,374,,-0.035455946,"2,573,165"
 Florida,R,Yes,5297045,5668731,101680,0.48,0.51,0.01,-0.03,-0.02,0.18,FL,29,8,0,12,787,520,,-0.011986256,"9,420,039"

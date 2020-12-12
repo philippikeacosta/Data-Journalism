@@ -1,1 +1,525 @@
-[{"state":"state","result":"called","Dvotes":"dem_votes","Rvotes":"rep_votes","Ovotes":"other_votes","Dpercent":"dem_percent","Rpercent":"rep_percent","Opercent":"other_percent"},{"state":"U.S. Total","result":"D","Dvotes":"81282376","Rvotes":"74222576","Ovotes":"2890419","Dpercent":"0.51","Rpercent":"0.47","Opercent":"0.02"},{"state":"Arizona","result":"D","Dvotes":"1672143","Rvotes":"1661686","Ovotes":"53497","Dpercent":"0.49","Rpercent":"0.49","Opercent":"0.02"},{"state":"Florida","result":"R","Dvotes":"5297045","Rvotes":"5668731","Ovotes":"101680","Dpercent":"0.48","Rpercent":"0.51","Opercent":"0.01"},{"state":"Georgia","result":"D","Dvotes":"2474507","Rvotes":"2461837","Ovotes":"62138","Dpercent":"0.5","Rpercent":"0.49","Opercent":"0.01"},{"state":"Iowa","result":"R","Dvotes":"759061","Rvotes":"897672","Ovotes":"34138","Dpercent":"0.45","Rpercent":"0.53","Opercent":"0.02"},{"state":"Michigan","result":"D","Dvotes":"2804040","Rvotes":"2649852","Ovotes":"85410","Dpercent":"0.51","Rpercent":"0.48","Opercent":"0.02"},{"state":"Minnesota","result":"D","Dvotes":"1717049","Rvotes":"1484048","Ovotes":"76023","Dpercent":"0.52","Rpercent":"0.45","Opercent":"0.02"},{"state":"Nevada","result":"D","Dvotes":"703486","Rvotes":"669890","Ovotes":"32000","Dpercent":"0.5","Rpercent":"0.48","Opercent":"0.02"},{"state":"New Hampshire","result":"D","Dvotes":"424921","Rvotes":"365654","Ovotes":"15607","Dpercent":"0.53","Rpercent":"0.45","Opercent":"0.02"},{"state":"North Carolina","result":"R","Dvotes":"2684292","Rvotes":"2758775","Ovotes":"81737","Dpercent":"0.49","Rpercent":"0.5","Opercent":"0.02"},{"state":"Ohio","result":"R","Dvotes":"2679165","Rvotes":"3154834","Ovotes":"88203","Dpercent":"0.45","Rpercent":"0.53","Opercent":"0.02"},{"state":"Pennsylvania","result":"D","Dvotes":"3459923","Rvotes":"3378263","Ovotes":"79397","Dpercent":"0.5","Rpercent":"0.49","Opercent":"0.01"},{"state":"Texas","result":"R","Dvotes":"5259126","Rvotes":"5890347","Ovotes":"165583","Dpercent":"0.47","Rpercent":"0.52","Opercent":"0.02"},{"state":"Wisconsin","result":"D","Dvotes":"1630866","Rvotes":"1610184","Ovotes":"56991","Dpercent":"0.49","Rpercent":"0.49","Opercent":"0.02"},{"state":"Alabama","result":"R","Dvotes":"849624","Rvotes":"1441170","Ovotes":"32488","Dpercent":"0.37","Rpercent":"0.62","Opercent":"0.01"},{"state":"Alaska","result":"R","Dvotes":"153778","Rvotes":"189951","Ovotes":"15801","Dpercent":"0.43","Rpercent":"0.53","Opercent":"0.04"},{"state":"Arkansas","result":"R","Dvotes":"423932","Rvotes":"760647","Ovotes":"34490","Dpercent":"0.35","Rpercent":"0.62","Opercent":"0.03"},{"state":"California","result":"D","Dvotes":"11110250","Rvotes":"6006429","Ovotes":"384192","Dpercent":"0.64","Rpercent":"0.34","Opercent":"0.02"},{"state":"Colorado","result":"D","Dvotes":"1804352","Rvotes":"1364607","Ovotes":"87993","Dpercent":"0.55","Rpercent":"0.42","Opercent":"0.03"},{"state":"Connecticut","result":"D","Dvotes":"1080680","Rvotes":"715291","Ovotes":"28302","Dpercent":"0.59","Rpercent":"0.39","Opercent":"0.02"},{"state":"Delaware","result":"D","Dvotes":"296268","Rvotes":"200603","Ovotes":"7475","Dpercent":"0.59","Rpercent":"0.4","Opercent":"0.02"},{"state":"District of Columbia","result":"D","Dvotes":"317323","Rvotes":"18586","Ovotes":"8447","Dpercent":"0.92","Rpercent":"0.05","Opercent":"0.03"},{"state":"Hawaii","result":"D","Dvotes":"366130","Rvotes":"196864","Ovotes":"11475","Dpercent":"0.64","Rpercent":"0.34","Opercent":"0.02"},{"state":"Idaho","result":"R","Dvotes":"287021","Rvotes":"554119","Ovotes":"26091","Dpercent":"0.33","Rpercent":"0.64","Opercent":"0.03"},{"state":"Illinois","result":"D","Dvotes":"3471915","Rvotes":"2446891","Ovotes":"114938","Dpercent":"0.58","Rpercent":"0.41","Opercent":"0.02"},{"state":"Indiana","result":"R","Dvotes":"1242413","Rvotes":"1729516","Ovotes":"61183","Dpercent":"0.41","Rpercent":"0.57","Opercent":"0.02"},{"state":"Kansas","result":"R","Dvotes":"570323","Rvotes":"771406","Ovotes":"30574","Dpercent":"0.42","Rpercent":"0.56","Opercent":"0.02"},{"state":"Kentucky","result":"R","Dvotes":"772474","Rvotes":"1326646","Ovotes":"37648","Dpercent":"0.36","Rpercent":"0.62","Opercent":"0.02"},{"state":"Louisiana","result":"R","Dvotes":"856034","Rvotes":"1255776","Ovotes":"36252","Dpercent":"0.4","Rpercent":"0.59","Opercent":"0.02"},{"state":"Maine","result":"D","Dvotes":"435072","Rvotes":"360737","Ovotes":"23652","Dpercent":"0.53","Rpercent":"0.44","Opercent":"0.03"},{"state":"Maryland","result":"D","Dvotes":"1985023","Rvotes":"976414","Ovotes":"75593","Dpercent":"0.65","Rpercent":"0.32","Opercent":"0.03"},{"state":"Massachusetts","result":"D","Dvotes":"2382202","Rvotes":"1167202","Ovotes":"81998","Dpercent":"0.66","Rpercent":"0.32","Opercent":"0.02"},{"state":"Mississippi","result":"R","Dvotes":"539508","Rvotes":"756789","Ovotes":"17597","Dpercent":"0.41","Rpercent":"0.58","Opercent":"0.01"},{"state":"Missouri","result":"R","Dvotes":"1253014","Rvotes":"1718736","Ovotes":"54212","Dpercent":"0.41","Rpercent":"0.57","Opercent":"0.02"},{"state":"Montana","result":"R","Dvotes":"244786","Rvotes":"343602","Ovotes":"15286","Dpercent":"0.41","Rpercent":"0.57","Opercent":"0.03"},{"state":"Nebraska","result":"R","Dvotes":"374583","Rvotes":"556846","Ovotes":"20283","Dpercent":"0.39","Rpercent":"0.59","Opercent":"0.02"},{"state":"New Jersey","result":"D","Dvotes":"2608335","Rvotes":"1883274","Ovotes":"57744","Dpercent":"0.57","Rpercent":"0.41","Opercent":"0.01"},{"state":"New Mexico","result":"D","Dvotes":"501614","Rvotes":"401894","Ovotes":"20457","Dpercent":"0.54","Rpercent":"0.44","Opercent":"0.02"},{"state":"New York","result":"D","Dvotes":"5241957","Rvotes":"3250075","Ovotes":"119043","Dpercent":"0.61","Rpercent":"0.38","Opercent":"0.01"},{"state":"North Dakota","result":"R","Dvotes":"114902","Rvotes":"235595","Ovotes":"11322","Dpercent":"0.32","Rpercent":"0.65","Opercent":"0.03"},{"state":"Oklahoma","result":"R","Dvotes":"503890","Rvotes":"1020280","Ovotes":"36529","Dpercent":"0.32","Rpercent":"0.65","Opercent":"0.02"},{"state":"Oregon","result":"D","Dvotes":"1340383","Rvotes":"958448","Ovotes":"75490","Dpercent":"0.57","Rpercent":"0.4","Opercent":"0.03"},{"state":"Rhode Island","result":"D","Dvotes":"307486","Rvotes":"199922","Ovotes":"10349","Dpercent":"0.59","Rpercent":"0.39","Opercent":"0.02"},{"state":"South Carolina","result":"R","Dvotes":"1091541","Rvotes":"1385103","Ovotes":"36685","Dpercent":"0.43","Rpercent":"0.55","Opercent":"0.02"},{"state":"South Dakota","result":"R","Dvotes":"150471","Rvotes":"261043","Ovotes":"11095","Dpercent":"0.36","Rpercent":"0.62","Opercent":"0.03"},{"state":"Tennessee","result":"R","Dvotes":"1143711","Rvotes":"1852475","Ovotes":"57665","Dpercent":"0.38","Rpercent":"0.61","Opercent":"0.02"},{"state":"Utah","result":"R","Dvotes":"560282","Rvotes":"865140","Ovotes":"62867","Dpercent":"0.38","Rpercent":"0.58","Opercent":"0.04"},{"state":"Vermont","result":"D","Dvotes":"242820","Rvotes":"112704","Ovotes":"11904","Dpercent":"0.66","Rpercent":"0.31","Opercent":"0.03"},{"state":"Virginia","result":"D","Dvotes":"2413568","Rvotes":"1962430","Ovotes":"84526","Dpercent":"0.54","Rpercent":"0.44","Opercent":"0.02"},{"state":"Washington","result":"D","Dvotes":"2369612","Rvotes":"1584651","Ovotes":"133368","Dpercent":"0.58","Rpercent":"0.39","Opercent":"0.03"},{"state":"West Virginia","result":"R","Dvotes":"235984","Rvotes":"545382","Ovotes":"13286","Dpercent":"0.3","Rpercent":"0.69","Opercent":"0.02"},{"state":"Wyoming","result":"R","Dvotes":"73491","Rvotes":"193559","Ovotes":"9715","Dpercent":"0.27","Rpercent":"0.7","Opercent":"0.04"},{"state":""}]
+[
+  {
+    "state": "U.S. Total",
+    "result": "D",
+    "Dvotes": "81282376",
+    "Rvotes": "74222576",
+    "Ovotes": "2890419",
+    "Dpercent": "0.51",
+    "Rpercent": "0.47",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Arizona",
+    "result": "D",
+    "Dvotes": "1672143",
+    "Rvotes": "1661686",
+    "Ovotes": "53497",
+    "Dpercent": "0.49",
+    "Rpercent": "0.49",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Florida",
+    "result": "R",
+    "Dvotes": "5297045",
+    "Rvotes": "5668731",
+    "Ovotes": "101680",
+    "Dpercent": "0.48",
+    "Rpercent": "0.51",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Georgia",
+    "result": "D",
+    "Dvotes": "2474507",
+    "Rvotes": "2461837",
+    "Ovotes": "62138",
+    "Dpercent": "0.5",
+    "Rpercent": "0.49",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Iowa",
+    "result": "R",
+    "Dvotes": "759061",
+    "Rvotes": "897672",
+    "Ovotes": "34138",
+    "Dpercent": "0.45",
+    "Rpercent": "0.53",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Michigan",
+    "result": "D",
+    "Dvotes": "2804040",
+    "Rvotes": "2649852",
+    "Ovotes": "85410",
+    "Dpercent": "0.51",
+    "Rpercent": "0.48",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Minnesota",
+    "result": "D",
+    "Dvotes": "1717049",
+    "Rvotes": "1484048",
+    "Ovotes": "76023",
+    "Dpercent": "0.52",
+    "Rpercent": "0.45",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Nevada",
+    "result": "D",
+    "Dvotes": "703486",
+    "Rvotes": "669890",
+    "Ovotes": "32000",
+    "Dpercent": "0.5",
+    "Rpercent": "0.48",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "New Hampshire",
+    "result": "D",
+    "Dvotes": "424921",
+    "Rvotes": "365654",
+    "Ovotes": "15607",
+    "Dpercent": "0.53",
+    "Rpercent": "0.45",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "North Carolina",
+    "result": "R",
+    "Dvotes": "2684292",
+    "Rvotes": "2758775",
+    "Ovotes": "81737",
+    "Dpercent": "0.49",
+    "Rpercent": "0.5",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Ohio",
+    "result": "R",
+    "Dvotes": "2679165",
+    "Rvotes": "3154834",
+    "Ovotes": "88203",
+    "Dpercent": "0.45",
+    "Rpercent": "0.53",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Pennsylvania",
+    "result": "D",
+    "Dvotes": "3459923",
+    "Rvotes": "3378263",
+    "Ovotes": "79397",
+    "Dpercent": "0.5",
+    "Rpercent": "0.49",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Texas",
+    "result": "R",
+    "Dvotes": "5259126",
+    "Rvotes": "5890347",
+    "Ovotes": "165583",
+    "Dpercent": "0.47",
+    "Rpercent": "0.52",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Wisconsin",
+    "result": "D",
+    "Dvotes": "1630866",
+    "Rvotes": "1610184",
+    "Ovotes": "56991",
+    "Dpercent": "0.49",
+    "Rpercent": "0.49",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Alabama",
+    "result": "R",
+    "Dvotes": "849624",
+    "Rvotes": "1441170",
+    "Ovotes": "32488",
+    "Dpercent": "0.37",
+    "Rpercent": "0.62",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Alaska",
+    "result": "R",
+    "Dvotes": "153778",
+    "Rvotes": "189951",
+    "Ovotes": "15801",
+    "Dpercent": "0.43",
+    "Rpercent": "0.53",
+    "Opercent": "0.04"
+  },
+  {
+    "state": "Arkansas",
+    "result": "R",
+    "Dvotes": "423932",
+    "Rvotes": "760647",
+    "Ovotes": "34490",
+    "Dpercent": "0.35",
+    "Rpercent": "0.62",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "California",
+    "result": "D",
+    "Dvotes": "11110250",
+    "Rvotes": "6006429",
+    "Ovotes": "384192",
+    "Dpercent": "0.64",
+    "Rpercent": "0.34",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Colorado",
+    "result": "D",
+    "Dvotes": "1804352",
+    "Rvotes": "1364607",
+    "Ovotes": "87993",
+    "Dpercent": "0.55",
+    "Rpercent": "0.42",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Connecticut",
+    "result": "D",
+    "Dvotes": "1080680",
+    "Rvotes": "715291",
+    "Ovotes": "28302",
+    "Dpercent": "0.59",
+    "Rpercent": "0.39",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Delaware",
+    "result": "D",
+    "Dvotes": "296268",
+    "Rvotes": "200603",
+    "Ovotes": "7475",
+    "Dpercent": "0.59",
+    "Rpercent": "0.4",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "District of Columbia",
+    "result": "D",
+    "Dvotes": "317323",
+    "Rvotes": "18586",
+    "Ovotes": "8447",
+    "Dpercent": "0.92",
+    "Rpercent": "0.05",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Hawaii",
+    "result": "D",
+    "Dvotes": "366130",
+    "Rvotes": "196864",
+    "Ovotes": "11475",
+    "Dpercent": "0.64",
+    "Rpercent": "0.34",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Idaho",
+    "result": "R",
+    "Dvotes": "287021",
+    "Rvotes": "554119",
+    "Ovotes": "26091",
+    "Dpercent": "0.33",
+    "Rpercent": "0.64",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Illinois",
+    "result": "D",
+    "Dvotes": "3471915",
+    "Rvotes": "2446891",
+    "Ovotes": "114938",
+    "Dpercent": "0.58",
+    "Rpercent": "0.41",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Indiana",
+    "result": "R",
+    "Dvotes": "1242413",
+    "Rvotes": "1729516",
+    "Ovotes": "61183",
+    "Dpercent": "0.41",
+    "Rpercent": "0.57",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Kansas",
+    "result": "R",
+    "Dvotes": "570323",
+    "Rvotes": "771406",
+    "Ovotes": "30574",
+    "Dpercent": "0.42",
+    "Rpercent": "0.56",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Kentucky",
+    "result": "R",
+    "Dvotes": "772474",
+    "Rvotes": "1326646",
+    "Ovotes": "37648",
+    "Dpercent": "0.36",
+    "Rpercent": "0.62",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Louisiana",
+    "result": "R",
+    "Dvotes": "856034",
+    "Rvotes": "1255776",
+    "Ovotes": "36252",
+    "Dpercent": "0.4",
+    "Rpercent": "0.59",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Maine",
+    "result": "D",
+    "Dvotes": "435072",
+    "Rvotes": "360737",
+    "Ovotes": "23652",
+    "Dpercent": "0.53",
+    "Rpercent": "0.44",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Maryland",
+    "result": "D",
+    "Dvotes": "1985023",
+    "Rvotes": "976414",
+    "Ovotes": "75593",
+    "Dpercent": "0.65",
+    "Rpercent": "0.32",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Massachusetts",
+    "result": "D",
+    "Dvotes": "2382202",
+    "Rvotes": "1167202",
+    "Ovotes": "81998",
+    "Dpercent": "0.66",
+    "Rpercent": "0.32",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Mississippi",
+    "result": "R",
+    "Dvotes": "539508",
+    "Rvotes": "756789",
+    "Ovotes": "17597",
+    "Dpercent": "0.41",
+    "Rpercent": "0.58",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Missouri",
+    "result": "R",
+    "Dvotes": "1253014",
+    "Rvotes": "1718736",
+    "Ovotes": "54212",
+    "Dpercent": "0.41",
+    "Rpercent": "0.57",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Montana",
+    "result": "R",
+    "Dvotes": "244786",
+    "Rvotes": "343602",
+    "Ovotes": "15286",
+    "Dpercent": "0.41",
+    "Rpercent": "0.57",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Nebraska",
+    "result": "R",
+    "Dvotes": "374583",
+    "Rvotes": "556846",
+    "Ovotes": "20283",
+    "Dpercent": "0.39",
+    "Rpercent": "0.59",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "New Jersey",
+    "result": "D",
+    "Dvotes": "2608335",
+    "Rvotes": "1883274",
+    "Ovotes": "57744",
+    "Dpercent": "0.57",
+    "Rpercent": "0.41",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "New Mexico",
+    "result": "D",
+    "Dvotes": "501614",
+    "Rvotes": "401894",
+    "Ovotes": "20457",
+    "Dpercent": "0.54",
+    "Rpercent": "0.44",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "New York",
+    "result": "D",
+    "Dvotes": "5241957",
+    "Rvotes": "3250075",
+    "Ovotes": "119043",
+    "Dpercent": "0.61",
+    "Rpercent": "0.38",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "North Dakota",
+    "result": "R",
+    "Dvotes": "114902",
+    "Rvotes": "235595",
+    "Ovotes": "11322",
+    "Dpercent": "0.32",
+    "Rpercent": "0.65",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Oklahoma",
+    "result": "R",
+    "Dvotes": "503890",
+    "Rvotes": "1020280",
+    "Ovotes": "36529",
+    "Dpercent": "0.32",
+    "Rpercent": "0.65",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Oregon",
+    "result": "D",
+    "Dvotes": "1340383",
+    "Rvotes": "958448",
+    "Ovotes": "75490",
+    "Dpercent": "0.57",
+    "Rpercent": "0.4",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Rhode Island",
+    "result": "D",
+    "Dvotes": "307486",
+    "Rvotes": "199922",
+    "Ovotes": "10349",
+    "Dpercent": "0.59",
+    "Rpercent": "0.39",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "South Carolina",
+    "result": "R",
+    "Dvotes": "1091541",
+    "Rvotes": "1385103",
+    "Ovotes": "36685",
+    "Dpercent": "0.43",
+    "Rpercent": "0.55",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "South Dakota",
+    "result": "R",
+    "Dvotes": "150471",
+    "Rvotes": "261043",
+    "Ovotes": "11095",
+    "Dpercent": "0.36",
+    "Rpercent": "0.62",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Tennessee",
+    "result": "R",
+    "Dvotes": "1143711",
+    "Rvotes": "1852475",
+    "Ovotes": "57665",
+    "Dpercent": "0.38",
+    "Rpercent": "0.61",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Utah",
+    "result": "R",
+    "Dvotes": "560282",
+    "Rvotes": "865140",
+    "Ovotes": "62867",
+    "Dpercent": "0.38",
+    "Rpercent": "0.58",
+    "Opercent": "0.04"
+  },
+  {
+    "state": "Vermont",
+    "result": "D",
+    "Dvotes": "242820",
+    "Rvotes": "112704",
+    "Ovotes": "11904",
+    "Dpercent": "0.66",
+    "Rpercent": "0.31",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "Virginia",
+    "result": "D",
+    "Dvotes": "2413568",
+    "Rvotes": "1962430",
+    "Ovotes": "84526",
+    "Dpercent": "0.54",
+    "Rpercent": "0.44",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Washington",
+    "result": "D",
+    "Dvotes": "2369612",
+    "Rvotes": "1584651",
+    "Ovotes": "133368",
+    "Dpercent": "0.58",
+    "Rpercent": "0.39",
+    "Opercent": "0.03"
+  },
+  {
+    "state": "West Virginia",
+    "result": "R",
+    "Dvotes": "235984",
+    "Rvotes": "545382",
+    "Ovotes": "13286",
+    "Dpercent": "0.3",
+    "Rpercent": "0.69",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Wyoming",
+    "result": "R",
+    "Dvotes": "73491",
+    "Rvotes": "193559",
+    "Ovotes": "9715",
+    "Dpercent": "0.27",
+    "Rpercent": "0.7",
+    "Opercent": "0.04"
+  },
+  {
+    "state": ""
+  }
+]
