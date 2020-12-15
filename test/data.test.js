@@ -29,16 +29,26 @@ describe('checking data format', () => {
   test("All state names should just be the name of the state", () =>{
     //use array of states
     isRepresented = true;
-    lifeExpect.forEach(function(currentValue,index){
-      if (states.includes(lifeExpect[index].state) == false){
+    for(let i = 1; i < lifeExpect.length; i ++){
+      if (states.includes(lifeExpect[i].state) == false){
         isRepresented = false;
       }
-    });
-    election.forEach(function(currentValue,index){
-      if (states.includes(election[index].state) == false){
+    }
+    // lifeExpect.forEach(function(currentValue,index){
+    //   if (states.includes(lifeExpect[index].state) == false){
+    //     isRepresented = false;
+    //   }
+    // });
+    for(let i = 1; i < election.length; i ++){
+      if (states.includes(election[i].state) == false){
         isRepresented = false;
       }
-    });
+    }
+    // election.forEach(function(currentValue,index){
+    //   if (states.includes(election[index].state) == false){
+    //     isRepresented = false;
+    //   }
+    // });
     expect(isRepresented).toBe(true);
   });
 
@@ -49,14 +59,17 @@ describe('checking data format', () => {
     lifeExpect.forEach(function(currentValue,index){
       if (newStateArray.includes(lifeExpect[index].state) == false){
         newStateArray.push(lifeExpect[index].state);
+        //console.log(lifeExpect[index].state);
       }
       else{
         noDuplicates = false;
       }
     });
+    newStateArray2 = [];
     election.forEach(function(currentValue,index){
-      if (newStateArray.includes(election[index].state) == false){
-        newStateArray.push(election[index].state);
+      if (newStateArray2.includes(election[index].state) == false){
+        newStateArray2.push(election[index].state);
+        //console.log(lifeExpect[index].state);
       }
       else{
         noDuplicates = false;
@@ -88,18 +101,26 @@ describe('checking data completeness', () => { //no places represented that aren
     expect(complete).toBe(true);
   });
 
-  test("All states (and only states) represented in election data", () =>{
+  test("All states (so only states + US total) represented in election data", () =>{
     //use array of states
     complete = true;
     newStateArray = [];
-    election.forEach(function(currentValue,index){
-      if (states.includes(election[index].state)){
-        newStateArray.push(election[index].state);
+    for(let i = 1; i < election.length; i ++){
+      if (states.includes(election[i].state)){
+        newStateArray.push(election[i].state);
       }
       else{
         complete = false;
       }
-    });
+    }
+    // election.forEach(function(currentValue,index){
+    //   if (states.includes(election[index].state)){
+    //     newStateArray.push(election[index].state);
+    //   }
+    //   else{
+    //     complete = false;
+    //   }
+    // });
     if(newStateArray.length != states.length){
       complete = false;
     }
