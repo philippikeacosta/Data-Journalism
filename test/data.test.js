@@ -3,9 +3,31 @@ let election = require('../data/clean/election.json');
 let states = require('../data/clean/stateArray.json');
 
 describe('checking data format', () => {
-  test("All life expectancies should be represented as decimals", () =>{
-    //?
+  test("All states have a life expectancy", () =>{
+    isRepresented = true;
+    lifeExpect.forEach(function(currentValue,index){
+      if(lifeExpect[index].avg == ""){
+        isRepresented = false;
+      }
+    });
+    expect(isRepresented).toBe(true);
   });
+
+  // test("All votes in election data add up to total US votes", () =>{
+  //   isRepresented = true;
+  //   addedVotes = 0;
+  //   for(let i = 1; i < election.length; i ++){
+  //     addedVotes += Float.parseFloat(election[i].Dvotes);
+  //     addedVotes += Float.parseFloat(election[i].Rvotes);
+  //     addedVotes += Float.parseFloat(election[i].Ovotes);
+  //   }
+  //   if(addedVotes != (Float.parseFloat(election[0].Dvotes) + Float.parseFloat(election[0].Rvotes) + Float.parseFloat(election[0].Ovotes))){
+  //     isRepresented = false;
+  //     console.log(addedVotes);
+  //   }
+  //   expect(isRepresented).toBe(true);
+  // });
+
   test("All % should be represented as decimals (no % sign)", () =>{
     isRepresented = true;
     election.forEach(function(currentValue,index){
@@ -76,9 +98,6 @@ describe('checking data format', () => {
       }
     });
     expect(noDuplicates).toBe(true);
-  });
-  test("Every entry begins with a state name(No entries begin with non-states)", () =>{
-
   });
 });
 
