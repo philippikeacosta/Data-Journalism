@@ -2,7 +2,7 @@
   "name": "data-journalism",
   "version": "1.0.0",
   "description": "",
-  "main": "generator.js",
+  "main": "util/generator.js",
   "dependencies": {
     "d3": "^6.3.1",
     "ejs": "^3.1.5",
@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "precompile": "node util/precompile.js",
-    "compile:html": "node generator.js",
+    "compile:html": "node util/generator.js",
     "compile": "npm run compile:html",
     "test": "jest",
     "build": "npm run precompile && npm run compile && npm run test"
