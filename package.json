@@ -12,10 +12,11 @@
   },
   "devDependencies": {},
   "scripts": {
+    "precompile": "node util/precompile.js",
     "compile:html": "node generator.js",
     "compile": "npm run compile:html",
     "test": "jest",
-    "build": "npm run compile && npm run test"
+    "build": "npm run precompile && npm run compile && npm run test"
   },
   "repository": {
     "type": "git",
