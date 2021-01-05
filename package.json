@@ -1,6 +1,7 @@
 {
   "name": "data-journalism",
   "version": "1.0.0",
+  "description": "",
   "main": "util/generator.js",
   "dependencies": {
     "d3": "^6.3.1",
@@ -43,9 +44,5 @@
     "undef": true,
     "unused": true,
     "varstmt": true
-  },
-  "directories": {
-    "test": "test"
-  },
-  "description": ""
+  }
 }
