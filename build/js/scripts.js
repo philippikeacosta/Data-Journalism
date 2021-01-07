@@ -50,40 +50,8 @@ var layout = {
   }
 };
 
-// Plotly.newPlot("myDiv", data2, layout).then(gd => {
-// 		  gd.on('plotly_click', d => {
-// 		    var pt = (d.points || [])[0]
-// 		    console.log(pt.location);
-//
-// 		    for(let i=0;i<locas.length;i++){
-// 		    	if(pt.location==locas[i]){
-// 		    		index=i;
-// 		    	}
-// 		    }
-//
-// 		    window.location.assign(fig[index+1].location.trim().replace(/ /g, "_")+".html")
-//
-// 		  })
-// 		})
-
-
 var config = {
   mapboxAccessToken: "pk.eyJ1IjoicHBpa2VhIiwiYSI6ImNramV4czZqbzV0ZXcycXJ3OG0wNDBvc3cifQ.MAj1mFEKGNJffhkPrB7J9A"
 };
 
-Plotly.newPlot(test, data, layout, config).then(gd => {
-		  gd.on('plotly_click', d => {
-		    var pt = (d.points || [])[0]
-		    console.log(pt.location);
-
-        window.open("///C:/Users/Philip/Documents/GitHub/Data-Journalism/build/about.html");
-		    // for(let i=0;i<locas.length;i++){
-		    // 	if(pt.location==locas[i]){
-		    // 		index=i;
-		    // 	}
-		    // }
-        //
-		    // window.location.assign(fig[index+1].location.trim().replace(/ /g, "_")+".html")
-
-		  })
-		})
+Plotly.newPlot(test, data, layout, config);
