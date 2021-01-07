@@ -17,9 +17,9 @@
     "compile:html": "node util/generator.js",
     "compile:css": "lessc src/LESS/styles.less build/css/styles.css",
     "compile": "npm run compile:css && npm run compile:html",
-    "lint": "jshint ./build/js/*.js",
+    "lint": "jshint build/js/scripts.js",
     "test": "jest",
-    "document":"jsdoc ./build/js/*.js -d docs",
+    "document": "jsdoc build/js/scripts.js -d docs",
     "build": "npm run precompile && npm run compile && npm run lint && npm run test && npm run document"
   },
   "repository": {
@@ -43,7 +43,10 @@
     "eqeqeq": true,
     "undef": true,
     "unused": true,
-    "varstmt": true
+    "varstmt": true,
+    "devel": true,
+    "browser": true,
+    "esversion": 6
   },
   "directories": {
     "test": "test"

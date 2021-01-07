@@ -1,15 +1,16 @@
 const fs = require('fs');
 
 fileNames = fs.readdirSync("./build"); //files in build
+console.log(fileNames);
 srcFileNames = fs.readdirSync("./src/public"); //files in public
 
 fileNames.forEach(function(currentValue,index){
   let item = fs.statSync("./build/" + currentValue);
-  if(item.isFile()){ //if what's in the directory is a file
-    fs.unlinkSync("./build/" + currentValue); //delete file
-  }
-  else{ //if a folder
+  if(item.isFile() == false){ //if a folder
     fs.rmdirSync("./build/" + currentValue, { recursive: true }); //delete folder+contents
+  }
+  else{ //if what's in the directory is a file
+    fs.unlinkSync("./build/" + currentValue); //delete file
   }
 });
 
