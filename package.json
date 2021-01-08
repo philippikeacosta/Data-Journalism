@@ -21,7 +21,7 @@
     "lint": "jshint build/js/scripts.js",
     "test": "jest",
     "document": "jsdoc build/js/scripts.js -d docs",
-    "build": "npm run precompile && npm run compile && npm run lint && npm run test && npm run document",
+    "build": "npm run precompile && npm run compile && npm run document",
     "build:start": "start http://127.0.0.1:8080 && node ./node_modules/http-server/bin/http-server ./build"
   },
   "repository": {
