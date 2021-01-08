@@ -22,11 +22,11 @@ let about_html = ejs.render(about_template, {
   filename: __dirname + '/../views/about.ejs',
   title: "About",
 });
-fs.writeFileSync("./build/html/about.html", about_html, 'utf8');
+fs.writeFileSync("./build/about.html", about_html, 'utf8');
 
 let index_template = fs.readFileSync('./views/index.ejs', 'utf8');
 let index_html = ejs.render(index_template, {
   filename: __dirname + '/../views/index.ejs',
   title: "Home",
 });
-fs.writeFileSync("./build/html/index.html", index_html, 'utf8');
+fs.writeFileSync("./build/index.html", index_html, 'utf8');
