@@ -2,7 +2,7 @@ let test = document.getElementById("test");
 
 // let election = require('../data/clean/election.json');
 //
-console.log(Object.values(election[0])[5]);
+//console.log(Object.values(election[0])[5]);
 
 
 let data = [{
@@ -27,14 +27,14 @@ let data = [{
   }
 }];
 
-console.log(Object.values(data)[0].locations);
+//console.log(Object.values(data)[0].locations);
 
 
 for (let i = 0; i < 51; i++) {
   //Object.values(data)[0].locations[i] = Object.values(election[i+1])[0];
   Object.values(data)[0].z[i] = Object.values(election[i + 1])[5];
 }
-console.log(Object.values(data));
+//console.log(Object.values(data));
 
 let layout = {
   mapbox: {
@@ -78,8 +78,13 @@ Plotly.newPlot(test, data, layout, config).then(gd => {
   gd.on('plotly_click', d => {
     let pt = (d.points || [])[0]
     console.log(pt.location);
+    console.log(pt.properties.name);
+    console.log(Object.values(data)[0].locations);
 
-    window.open("///C:/Users/Philip/Documents/GitHub/Data-Journalism/build/about.html");
+    let link = pt.properties.name.replace(/ /g, "_") + ".html";
+    window.open(link);
+
+
     // for(let i=0;i<locas.length;i++){
     // 	if(pt.location==locas[i]){
     // 		index=i;
