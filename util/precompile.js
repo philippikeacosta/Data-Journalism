@@ -18,6 +18,7 @@ fileNames.forEach(function(currentValue,index){
 fs.mkdirSync("./build/images");
 fs.mkdirSync("./build/css");
 fs.mkdirSync("./build/js");
+fs.mkdirSync("./build/html");
 
 //copy files
 srcFileNames.forEach(function(currentValue,index){
