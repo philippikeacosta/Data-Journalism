@@ -1,11 +1,11 @@
-var test = document.getElementById("test");
+let test = document.getElementById("test");
 
 // let election = require('../data/clean/election.json');
 //
 //console.log(Object.values(election[0])[5]);
 
 
-var data = [{
+let data = [{
   type: "choroplethmapbox",
   name: "US states",
   geojson: "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/us-states.json",
@@ -33,7 +33,7 @@ for(let i = 0; i < 51; i++){
 }
 //console.log(Object.values(data));
 
-var layout = {
+let layout = {
   mapbox: {
     style: "dark",
     center: {
@@ -50,7 +50,7 @@ var layout = {
   }
 };
 
-var config = {
+let config = {
   mapboxAccessToken: "pk.eyJ1IjoicHBpa2VhIiwiYSI6ImNramV4czZqbzV0ZXcycXJ3OG0wNDBvc3cifQ.MAj1mFEKGNJffhkPrB7J9A"
 };
 

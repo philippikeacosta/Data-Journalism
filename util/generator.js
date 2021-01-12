@@ -11,7 +11,8 @@ election.forEach(function(state){
   let state_html = ejs.render(state_template, {
     filename: __dirname + '/../views/micro.ejs',
     data: state,
-    states: election
+    election: election,
+    life: life,
   });
   fs.writeFileSync(filename, state_html, 'utf8');
 });
