@@ -15,6 +15,8 @@ fileNames.forEach(function(currentValue,index){
 });
 
 //creating subfolders
+console.log("current subfolders");
+console.log(fs.readdirSync("./build"));
 fs.mkdirSync("./build/images");
 fs.mkdirSync("./build/css");
 fs.mkdirSync("./build/js");
