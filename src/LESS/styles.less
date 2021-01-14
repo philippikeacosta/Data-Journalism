@@ -4,6 +4,13 @@
 @light_blue: #C0D6DF;
 @silvery: #EAEAEA;
 
+@red: #B80C09;
+@orangebeige: #EEB868;
+@blue: #54C6EB;
+@purp: #561643;
+@sand: #D7B49E;
+@lightpurp: #CBC0D3;
+
 .centerText(){
   text-align: center;
 }
@@ -14,13 +21,21 @@
 }
 
 body {
-  background-color: @beige;
+  background-color: @sand;
 }
 
 footer {
   margin-top: 100px;
-  color: desaturate(@orangy, 20%);
+  color: desaturate(@purp, 20%);
   opacity: 0.75;
+}
+
+ul {
+  color: @red;
+}
+
+p {
+  color: @red;
 }
 
 main {
@@ -58,13 +73,13 @@ header h3 {
 h1 {
   font-size: 70px;
   .centerText();
-  color: @orangy;
+  color: @purp;
   .margins(5px, 5px);
 }
 
 h3 {
   .margins(40px, 40px);
-  color: @dark_blue;
+  color: @blue;
   .centerText();
 }
 
@@ -97,11 +112,11 @@ a:link {
 }
 
 a:visited {
-  color: @dark_blue;
+  color: @orangebeige;
 }
 
 a:hover {
-  color: @orangy;
+  color: @sand;
 }
 
 

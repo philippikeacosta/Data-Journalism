@@ -1,10 +1,16 @@
 body {
-  background-color: #E8DAB2;
+  background-color: #D7B49E;
 }
 footer {
   margin-top: 100px;
-  color: hsl(17, 50%, 56%);
+  color: #4b213f;
   opacity: 0.75;
+}
+ul {
+  color: #B80C09;
+}
+p {
+  color: #B80C09;
 }
 main {
   text-align: center;
@@ -35,14 +41,14 @@ header h3 {
 h1 {
   font-size: 70px;
   text-align: center;
-  color: hsl(17, 70%, 56%);
+  color: #561643;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 h3 {
   margin-top: 40px;
   margin-bottom: 40px;
-  color: hsl(198, 21%, 39%);
+  color: #54C6EB;
   text-align: center;
 }
 .nestedTable table tr td {
@@ -69,10 +75,10 @@ a:link {
   color: #000000;
 }
 a:visited {
-  color: hsl(198, 21%, 39%);
+  color: #EEB868;
 }
 a:hover {
-  color: hsl(17, 70%, 56%);
+  color: #D7B49E;
 }
 /*!
  * Materialize v1.0.0 (http://materializecss.com)
