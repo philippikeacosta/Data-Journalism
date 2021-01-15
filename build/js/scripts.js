@@ -1,13 +1,13 @@
-let electiondata = fetch("./clean/election.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
-let life = fetch("./clean/life.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
-
-// fs.readFileSync('./data/clean/life.json', 'utf8');
-console.log(life);
-console.log(electiondata);
+// let electiondata = fetch("./clean/election.json")
+//   .then(response => response.json())
+//   .then(json => console.log(json));
+// let life = fetch("./clean/life.json")
+//   .then(response => response.json())
+//   .then(json => console.log(json));
+//
+// // fs.readFileSync('./data/clean/life.json', 'utf8');
+// console.log(life);
+// console.log(electiondata);
 
 let graph = document.getElementById("chart");
 let electionmap = document.getElementById("electionmap");

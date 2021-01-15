@@ -1,92 +1,162 @@
 <%- include('global/header', {title: "About"}); %>
+<div class="row">
+  <div class="col s6 offset-s1">
+    <img src="images/Pipeline.png" alt="Build Pipeline" width="600" height="500">
+  </div>
+  <div class="col s4">
+    <ul>
+      <li> For the first step of gathering and cleansing the data, we parse through all of the data, take information for the 50 states and DC,
+      and then organize that data in an object and create a json file to store that object </li>
+      <li> Next is the build, the first part of which is precompiling, which includes deleting all of the files in
+      the build folder and copying everything in the public folder. </li>
+      <li> In compile, we compile all of the ejs files for the index, about page, and micro summary
+      pages into html pages in the build folder </li>
+      <li> Then we use Lint to check for errors and Jest to run test on our data, ensuring the correct formatting and content </li>
+      <li> In the final part of the build, we generate documentation using Javadoc </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+    </ul>
+  </div>
+</div>
 
-<img src="images/BuildPipeline.png" alt="Build Pipeline" width="600" height="500">
-
-<h3>Important Vocabulary</h3>
-<ul>
-
-  <li>
-    Life Expectancy: the average number of years a newborn is expected to live if mortality patterns at the time of its birth remain constant in the future
-    </li>
-    <li>
-
+<div class="row">
+  <div class="col s8 offset-s2">
+    <h3>Important Vocabulary</h3>
+    <ul>
+      <li>
+        Life Expectancy: the average number of years a newborn is expected to live if mortality patterns at the time of its birth remain constant in the future
       </li>
-  </ul>
-<img src="images/FrancesLanding.jpg" alt="Landing Page 1" width="600" height="500">
-<img src="images/FrancesMicro.jpg" alt="Micro Page 1" width="600" height="500">
+      <li>
+        Democratic Candidate: the candidate nominated by the democratic party
+      </li>
+      <li>
+        Republican Candidate: the candidate nominated by the republican party
+      </li>
+      <li>
+        Democratic Votes: the number of votes casted for the democratic candidate
+      </li>
+      <li>
+        Republican Votes: the number of votes casted for the republican candidate
+      </li>
+      <li>
+        Democratic Percentage: the amount of democratic votes out of the entire number of votes
+      </li>
+      <li>
+        Republican Percentage: the amount of republic votes out of the entire number of votes
+      </li>
+    </ul>
+  </div>
+</div>
 
-<h3> Understandability </h3>
-<ul>
-  <li> Diagrams are large and mostly centered on the page, allowing for users to easily understand the information</li>
-  <li> Different colors are also utilized and consistent throughout the pages </li>
-</ul>
+<div class="row">
+  <div class="col s6">
+    <img src="images/FrancesLanding.jpg" alt="Landing Page 1" width="600" height="500">
+  </div>
+  <div class="col s6">
+    <img src="images/FrancesMicro.jpg" alt="Micro Page 1" width="600" height="500">
+  </div>
+</div>
 
-<h3> Mapping </h3>
-<ul>
-  <li> The landing page's bar chart clearly shows the national relationship between life expectancy and candidates </li>
-  <li> Uses the real world red and blue color conventions for parties </li>
-  <li> The micro summary page clearly separated the state information and the state vs national comparisons by having one on the top and the other on the bottom</li>
-</ul>
+<div class="row">
+  <div class="col s3">
+    <h3> Understandability </h3>
+    <ul>
+      <li> Diagrams are large and mostly centered on the page, allowing for users to easily understand the information</li>
+      <li> Different colors are also utilized and consistent throughout the pages </li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Mapping </h3>
+    <ul>
+      <li> The landing page's bar chart clearly shows the national relationship between life expectancy and candidates </li>
+      <li> Uses the real world red and blue color conventions for parties </li>
+      <li> The micro summary page clearly separated the state information and the state vs national comparisons by having one on the top and the other on the bottom</li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Political Intent </h3>
+    <ul>
+      <li> Landing and micro summary pages just display data about election results, which in itself is neural </li>
+      <li> However, the reader will intepret that data in a way that isn't neutral, which we intend upon </li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Simplicity </h3>
+    <ul>
+      <li> Most of the data is displayed in a few large, easy to read charts </li>
+      <li> However, the large text showing the life expectancy on the landing page takes away from the simplicity of the design and the graph next to it </li>
+      <li> The larger take away sentence on the micro summary page is at the bottom of the page rather than the top, making it slightly more difficult for people to find that information</li>
+      <li> The graph on the bottom left of the micro summary page provides a comparison that isn't completely relevant to the larger topic</li>
+    </ul>
+  </div>
+</div>
 
-<h3> Structure </h3>
-<ul>
-  <li> Micro summary pages have the state information all in one row and the national comparison information in another</li>
-  <li> Text-based analysis of the candidate votes and life expectancy data are on different sides of the page</li>
-</ul>
+<div class="row">
+  <div class="col s6">
+    <img src="images/PhilipLanding.png" alt="Landing Page 2" width="600">
+  </div>
+  <div class="col s6">
+    <img src="images/PhilipMicro.png" alt="Micro Page 2" width="600">
+  </div>
+</div>
 
-<h3> Simplicity </h3>
-<ul>
-  <li> Most of the data is displayed in a few large, easy to read charts </li>
-  <li> However, the large text showing the life expectancy on the landing page takes away from the simplicity of the design and the graph next to it </li>
-  <li> The larger take away sentence on the micro summary page is at the bottom of the page rather than the top, making it slightly more difficult for people to find that information</li>
-  <li> The graph on the bottom left of the micro summary page provides a comparison that isn't completely relevant to the larger topic</li>
-</ul>
+<div class="row">
+  <div class="col s3">
+    <h3> Understandability </h3>
+    <ul>
+      <li> Maps give an intuitive way to display large amounts of information</li>
+      <li> Color scheme makes the diagrams understandable and engaging </li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Discoverability </h3>
+    <ul>
+      <li> The comparison between both data sets is clear on the landing page and on the micro summaries </li>
+      <li> Landing page maps are clickable and interacting with them will direct the user to the appropriate page </li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Political Intent </h3>
+    <ul>
+      <li> Also presents data objectively with graphs and diagrams, which are intend to be intrepreted potilically by the reader </li>
+      <li> Micro summary pages contain less graphs comparing state stastistics with the national, creating less of an intent for the reader to compare state election and life expectancy results
+        with that of the rest of the country </li>
+    </ul>
+  </div>
+  <div class="col s3">
+    <h3> Achievability </h3>
+    <ul>
+      <li> D3's choropleth map makes making maps very achievable</li>
+      <li> Other forms of charts and text are also intuitive to make</li>
+    </ul>
+  </div>
+</div>
 
-<img src="images/PhilipLanding.png" alt="Landing Page 2" width="600">
-<img src="images/PhilipMicro.png" alt="Micro Page 2" width="600">
+<div class="row">
+  <div class="col s8 offset-s2">
+    <h3> Final Design</h3>
+    <ul>
+      <li>
+        Landing page uses side by side maps with election results and life expectancies respectively, which we chose to allow for an easy visual comparison between the two data sets
+      </li>
+      <li>
+        We decided upon an interactive combined map that incorporates both data sets to allows users to easily navigate to individual state pages
+      </li>
+      <li>
+        State micro pages begin with a brief text-based summary and comparison to national data in order for viewers to both understand the data and the context for the data
+      </li>
+      <li>
+        Below that is a diagram that compares state data to national data
+      </li>
+      <li>
+        Underneath that are side by side diagrams of the individual data with a detailed text summary in the middle, in order to give viewers a detailed explanations of the graphs and increasing understandability
+      </li>
+    </ul>
+  </div>
+</div>
 
-<h3> Understandability </h3>
-<ul>
-  <li> Maps give an intuitive way to display large amounts of information</li>
-  <li> Color scheme makes the diagrams understandable and engaging </li>
-</ul>
-
-<h3> Discoverability </h3>
-<ul>
-  <li> The comparison between both data sets is clear on the landing page and on the micro summaries </li>
-  <li> Landing page maps are clickable and interacting with them will direct the user to the appropriate page </li>
-</ul>
-
-<h3> Simplicity </h3>
-<ul>
-  <li> Maps display large quantities of data in a compact and readable format </li>
-  <li> Amount of text is limited with a greater focus places on maps and figures </li>
-</ul>
-
-<h3> Achievability </h3>
-<ul>
-  <li> D3's choropleth map makes making maps very achievable</li>
-  <li> Other forms of charts and text are also intuitive to make</li>
-</ul>
-
-<h2> Final Design</h2>
-<ul>
-  <li>
-    Landing page uses side by side maps with election results and life expectancies respectively
-  </li>
-  <li>
-    A interactive combined map incorporates both data sets and allows users to navigate to individual state pages
-  </li>
-  <li>
-    State micro pages begin with a brief text-based summary and comparison to national data
-  </li>
-  <li>
-    Below that is a diagram that compares state data to national data
-  </li>
-  <li>
-    Underneath that are side by side diagrams of the individual data with a detailed text summary in the middle
-  </li>
-</ul>
 <%- include ('global/footer'); %>
 </body>
 
