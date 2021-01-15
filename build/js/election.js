@@ -10,136 +10,6 @@ let election = [
     "Opercent": "0.02"
   },
   {
-    "state": "Arizona",
-    "result": "D",
-    "Dvotes": "1672143",
-    "Rvotes": "1661686",
-    "Ovotes": "53497",
-    "Dpercent": "0.49",
-    "Rpercent": "0.49",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Florida",
-    "result": "R",
-    "Dvotes": "5297045",
-    "Rvotes": "5668731",
-    "Ovotes": "101680",
-    "Dpercent": "0.48",
-    "Rpercent": "0.51",
-    "Opercent": "0.01"
-  },
-  {
-    "state": "Georgia",
-    "result": "D",
-    "Dvotes": "2474507",
-    "Rvotes": "2461837",
-    "Ovotes": "62138",
-    "Dpercent": "0.5",
-    "Rpercent": "0.49",
-    "Opercent": "0.01"
-  },
-  {
-    "state": "Iowa",
-    "result": "R",
-    "Dvotes": "759061",
-    "Rvotes": "897672",
-    "Ovotes": "34138",
-    "Dpercent": "0.45",
-    "Rpercent": "0.53",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Michigan",
-    "result": "D",
-    "Dvotes": "2804040",
-    "Rvotes": "2649852",
-    "Ovotes": "85410",
-    "Dpercent": "0.51",
-    "Rpercent": "0.48",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Minnesota",
-    "result": "D",
-    "Dvotes": "1717049",
-    "Rvotes": "1484048",
-    "Ovotes": "76023",
-    "Dpercent": "0.52",
-    "Rpercent": "0.45",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Nevada",
-    "result": "D",
-    "Dvotes": "703486",
-    "Rvotes": "669890",
-    "Ovotes": "32000",
-    "Dpercent": "0.5",
-    "Rpercent": "0.48",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "New Hampshire",
-    "result": "D",
-    "Dvotes": "424921",
-    "Rvotes": "365654",
-    "Ovotes": "15607",
-    "Dpercent": "0.53",
-    "Rpercent": "0.45",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "North Carolina",
-    "result": "R",
-    "Dvotes": "2684292",
-    "Rvotes": "2758775",
-    "Ovotes": "81737",
-    "Dpercent": "0.49",
-    "Rpercent": "0.5",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Ohio",
-    "result": "R",
-    "Dvotes": "2679165",
-    "Rvotes": "3154834",
-    "Ovotes": "88203",
-    "Dpercent": "0.45",
-    "Rpercent": "0.53",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Pennsylvania",
-    "result": "D",
-    "Dvotes": "3459923",
-    "Rvotes": "3378263",
-    "Ovotes": "79397",
-    "Dpercent": "0.5",
-    "Rpercent": "0.49",
-    "Opercent": "0.01"
-  },
-  {
-    "state": "Texas",
-    "result": "R",
-    "Dvotes": "5259126",
-    "Rvotes": "5890347",
-    "Ovotes": "165583",
-    "Dpercent": "0.47",
-    "Rpercent": "0.52",
-    "Opercent": "0.02"
-  },
-  {
-    "state": "Wisconsin",
-    "result": "D",
-    "Dvotes": "1630866",
-    "Rvotes": "1610184",
-    "Ovotes": "56991",
-    "Dpercent": "0.49",
-    "Rpercent": "0.49",
-    "Opercent": "0.02"
-  },
-  {
     "state": "Alabama",
     "result": "R",
     "Dvotes": "849624",
@@ -158,6 +28,16 @@ let election = [
     "Dpercent": "0.43",
     "Rpercent": "0.53",
     "Opercent": "0.04"
+  },
+  {
+    "state": "Arizona",
+    "result": "D",
+    "Dvotes": "1672143",
+    "Rvotes": "1661686",
+    "Ovotes": "53497",
+    "Dpercent": "0.49",
+    "Rpercent": "0.49",
+    "Opercent": "0.02"
   },
   {
     "state": "Arkansas",
@@ -220,6 +100,26 @@ let election = [
     "Opercent": "0.03"
   },
   {
+    "state": "Florida",
+    "result": "R",
+    "Dvotes": "5297045",
+    "Rvotes": "5668731",
+    "Ovotes": "101680",
+    "Dpercent": "0.48",
+    "Rpercent": "0.51",
+    "Opercent": "0.01"
+  },
+  {
+    "state": "Georgia",
+    "result": "D",
+    "Dvotes": "2474507",
+    "Rvotes": "2461837",
+    "Ovotes": "62138",
+    "Dpercent": "0.5",
+    "Rpercent": "0.49",
+    "Opercent": "0.01"
+  },
+  {
     "state": "Hawaii",
     "result": "D",
     "Dvotes": "366130",
@@ -257,6 +157,16 @@ let election = [
     "Ovotes": "61183",
     "Dpercent": "0.41",
     "Rpercent": "0.57",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Iowa",
+    "result": "R",
+    "Dvotes": "759061",
+    "Rvotes": "897672",
+    "Ovotes": "34138",
+    "Dpercent": "0.45",
+    "Rpercent": "0.53",
     "Opercent": "0.02"
   },
   {
@@ -320,6 +230,26 @@ let election = [
     "Opercent": "0.02"
   },
   {
+    "state": "Michigan",
+    "result": "D",
+    "Dvotes": "2804040",
+    "Rvotes": "2649852",
+    "Ovotes": "85410",
+    "Dpercent": "0.51",
+    "Rpercent": "0.48",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Minnesota",
+    "result": "D",
+    "Dvotes": "1717049",
+    "Rvotes": "1484048",
+    "Ovotes": "76023",
+    "Dpercent": "0.52",
+    "Rpercent": "0.45",
+    "Opercent": "0.02"
+  },
+  {
     "state": "Mississippi",
     "result": "R",
     "Dvotes": "539508",
@@ -360,6 +290,26 @@ let election = [
     "Opercent": "0.02"
   },
   {
+    "state": "Nevada",
+    "result": "D",
+    "Dvotes": "703486",
+    "Rvotes": "669890",
+    "Ovotes": "32000",
+    "Dpercent": "0.5",
+    "Rpercent": "0.48",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "New Hampshire",
+    "result": "D",
+    "Dvotes": "424921",
+    "Rvotes": "365654",
+    "Ovotes": "15607",
+    "Dpercent": "0.53",
+    "Rpercent": "0.45",
+    "Opercent": "0.02"
+  },
+  {
     "state": "New Jersey",
     "result": "D",
     "Dvotes": "2608335",
@@ -390,6 +340,16 @@ let election = [
     "Opercent": "0.01"
   },
   {
+    "state": "North Carolina",
+    "result": "R",
+    "Dvotes": "2684292",
+    "Rvotes": "2758775",
+    "Ovotes": "81737",
+    "Dpercent": "0.49",
+    "Rpercent": "0.5",
+    "Opercent": "0.02"
+  },
+  {
     "state": "North Dakota",
     "result": "R",
     "Dvotes": "114902",
@@ -398,6 +358,16 @@ let election = [
     "Dpercent": "0.32",
     "Rpercent": "0.65",
     "Opercent": "0.03"
+  },
+  {
+    "state": "Ohio",
+    "result": "R",
+    "Dvotes": "2679165",
+    "Rvotes": "3154834",
+    "Ovotes": "88203",
+    "Dpercent": "0.45",
+    "Rpercent": "0.53",
+    "Opercent": "0.02"
   },
   {
     "state": "Oklahoma",
@@ -418,6 +388,16 @@ let election = [
     "Dpercent": "0.57",
     "Rpercent": "0.4",
     "Opercent": "0.03"
+  },
+  {
+    "state": "Pennsylvania",
+    "result": "D",
+    "Dvotes": "3459923",
+    "Rvotes": "3378263",
+    "Ovotes": "79397",
+    "Dpercent": "0.5",
+    "Rpercent": "0.49",
+    "Opercent": "0.01"
   },
   {
     "state": "Rhode Island",
@@ -457,6 +437,16 @@ let election = [
     "Ovotes": "57665",
     "Dpercent": "0.38",
     "Rpercent": "0.61",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Texas",
+    "result": "R",
+    "Dvotes": "5259126",
+    "Rvotes": "5890347",
+    "Ovotes": "165583",
+    "Dpercent": "0.47",
+    "Rpercent": "0.52",
     "Opercent": "0.02"
   },
   {
@@ -507,6 +497,16 @@ let election = [
     "Ovotes": "13286",
     "Dpercent": "0.3",
     "Rpercent": "0.69",
+    "Opercent": "0.02"
+  },
+  {
+    "state": "Wisconsin",
+    "result": "D",
+    "Dvotes": "1630866",
+    "Rvotes": "1610184",
+    "Ovotes": "56991",
+    "Dpercent": "0.49",
+    "Rpercent": "0.49",
     "Opercent": "0.02"
   },
   {

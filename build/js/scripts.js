@@ -1,4 +1,16 @@
-let test = document.getElementById("test");
+let electiondata = fetch("./clean/election.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
+let life = fetch("./clean/life.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
+
+// fs.readFileSync('./data/clean/life.json', 'utf8');
+console.log(life);
+console.log(electiondata);
+
+let graph = document.getElementById("chart");
+let electionmap = document.getElementById("electionmap");
 
 // let election = require('../data/clean/election.json');
 //
@@ -9,11 +21,14 @@ let data = [{
   type: "choroplethmapbox",
   name: "US states",
   geojson: "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/us-states.json",
-  locations: ["AZ","FL","GA", "IA","MI","MN","NV", "NH", "NC","OH", "PA", "TX","WI", "AL", "AK",  "AR", "CA", "CO", "CT", "DE", "DC",  "HI", "ID", "IL", "IN", "KS", "KY", "LA", "ME", "MD", "MA", "MS", "MO", "MT", "NE",  "NJ", "NM", "NY",  "ND", "OK", "OR", "RI", "SC", "SD", "TN",  "UT", "VT", "VA", "WA", "WV", "WY"],
+  locations: ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"],
   z: [141, 140, 155, 147, 132, 146, 151, 137, 146, 136, 145, 141, 149, 151, 138, 158, 164, 141, 146, 145, 142, 150, 155, 160, 156, 161, 147, 164, 150, 152, 155, 167, 145, 146, 151, 154, 161, 145, 155, 150, 151, 162, 172, 169, 170, 151, 152, 173, 160, 176],
   zmin: 0.27,
   zmax: 0.66,
-  colorscale: [[0, 'rgb(255,0,0)'], [1, 'rgb(0,0,255)']],
+  colorscale: [
+    [0, 'rgb(255,0,0)'],
+    [1, 'rgb(0,0,255)']
+  ],
   colorbar: {
     y: 0,
     yanchor: "bottom",
@@ -27,9 +42,9 @@ let data = [{
 //console.log( Object.values(data)[0].locations);
 
 
-for(let i = 0; i < 51; i++){
+for (let i = 0; i < 51; i++) {
   //Object.values(data)[0].locations[i] = Object.values(election[i+1])[0];
-  Object.values(data)[0].z[i] = Object.values(election[i+1])[5];
+  Object.values(data)[0].z[i] = Object.values(election[i + 1])[5];
 }
 //console.log(Object.values(data));
 
@@ -54,15 +69,14 @@ let config = {
   mapboxAccessToken: "pk.eyJ1IjoicHBpa2VhIiwiYSI6ImNramV4czZqbzV0ZXcycXJ3OG0wNDBvc3cifQ.MAj1mFEKGNJffhkPrB7J9A"
 };
 
-Plotly.newPlot(test, data, layout, config).then(gd => {
+Plotly.newPlot(electionmap, data, layout, config).then(gd => {
   gd.on('plotly_click', d => {
-    let pt = (d.points || [])[0]
-    console.log(pt.location);
-    console.log(pt.properties.name);
-    console.log(Object.values(data)[0].locations);
+    let pt = (d.points || [])[0];
+    //console.log(pt.location);
+    //console.log(pt.properties.name);
+    //console.log(Object.values(data)[0].locations);
 
     let link = "html/" + pt.properties.name.replace(/ /g, "_") + ".html";
     window.open(link);
-  }
-)
+  });
 });
