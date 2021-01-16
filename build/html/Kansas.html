@@ -41,10 +41,18 @@
 
 
 
-<h2></h2>
-<h3></h3>
+<h2>Kansas</h2>
+<body>In Kansas, the Democratic candidate received 42 percent of the vote and 570323 votes,
+   while the Republican candidate received 56.00000000000001 percent of the vote and 771406 votes.<br>
+   Nationally, the Democratic candidate received 51 percent of the vote and 81282376 votes,
+   while the Republican candidate received 47 percent of the vote and 74222576 votes.
 
-<div id="electionmap"></div>
+   <br>
+   In Kansas, the average life expectancy is 78.6. The national life expectancy is 78.7.
+ </body>
+
+<div id="electionpie"></div>
+<div id="lifechart"></div>
 
 
   <footer>
@@ -63,6 +71,95 @@
   </footer>
 
 <script src="../js/plotly-latest.min.js"></script>
+<script>
+
+  let election = {"state":"Kansas","result":"R","Dvotes":"570323","Rvotes":"771406","Ovotes":"30574","Dpercent":"0.42","Rpercent":"0.56","Opercent":"0.02"}
+
+  let life = {"state":"Kansas","avg":"78.6"}
+
+  console.log(election.state);
+    console.log(life);
+
+let electionpie = document.getElementById("electionpie");
+let lifechart = document.getElementById("lifechart");
+
+var data = [{
+  values: [election.Dvotes, election.Rvotes, election.Ovotes],
+  labels: ['Democrat', 'Republican', 'Other'],
+  marker: {
+  colors: [
+    'rgb(0, 170, 255)',
+    'rgb(184,12,9)',
+    'rgb(82, 98, 135)'
+  ]
+},
+  domain: {column: 0},
+  name: 'Votes',
+  hoverinfo: 'label+percent+name',
+  hole: .4,
+  type: 'pie'
+},
+{
+  values: [81282376, 74222576, 2890419],
+  labels: ['Democrat', 'Republican', 'Other'],
+  domain: {column: 1},
+  name: 'Votes',
+  hoverinfo: 'label+percent+name',
+  hole: .4,
+  type: 'pie'
+}];
+
+var layout = {
+  title: 'Vote Share in 2020 Presidential Election',
+  annotations: [
+    {
+      font: {
+        size: 20
+      },
+      showarrow: false,
+      text: election.state,
+      x: 0,
+      y: -0.2
+    },
+    {
+      font: {
+        size: 20
+      },
+      showarrow: false,
+      text: 'National',
+      x: 0.85,
+      y: -0.2
+    }
+  ],
+  height: 400,
+  width: 600,
+  showlegend: true,
+  grid: {rows: 1, columns: 2}
+};
+
+Plotly.newPlot('electionpie', data, layout);
+
+var data2 = [
+  {
+    x: [life.state, 'National'],
+    y: [life.avg, 78.7],
+    marker:{
+  color: ['#B80C09', 'rgba(222,45,38,0.8)']
+},
+    type: 'bar'
+  }
+];
+var layout2 = {
+title: 'Life Expectancy',
+ yaxis: {title: 'Life Expectancy (years)'},
+  height: 400,
+  width: 600,
+}
+
+Plotly.newPlot('lifechart', data2, layout2);
+
+
+</script>
 </body>
 
 </html>
