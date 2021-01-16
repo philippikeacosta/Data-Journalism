@@ -25,9 +25,12 @@ let about_html = ejs.render(about_template, {
 });
 fs.writeFileSync("./build/about.html", about_html, 'utf8');
 
+// console.log(JSON.stringify(election));
 let index_template = fs.readFileSync('./views/index.ejs', 'utf8');
 let index_html = ejs.render(index_template, {
   filename: __dirname + '/../views/index.ejs',
   title: "Home",
+  election: JSON.stringify(election),
+  life: JSON.stringify(life),
 });
 fs.writeFileSync("./build/index.html", index_html, 'utf8');
