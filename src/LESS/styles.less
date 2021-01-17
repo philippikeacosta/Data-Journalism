@@ -26,6 +26,7 @@
 
 body {
   background-color: @sand;
+  font-size: 115%;
 }
 
 footer {
@@ -69,11 +70,6 @@ main h2 {
   color: @orangy;
 }
 
-figcaption {
-  .centerText();
-  color: desaturate(@dark_blue, 10%);
-}
-
 * {
   font-family: 'Neucha';
 }
@@ -98,30 +94,6 @@ h3 {
   .margins(40px, 40px);
   color: @blue;
   .centerText();
-}
-
-.nestedTable table tr td {
-  border: 5px solid @light_blue;
-  .centerText();
-  color: @orangy;
-}
-
-#learnMore {
-  border: 7px;
-  border-style: double;
-  padding-left: 40px;
-  margin-top: 20px;
-  line-height: 1.6;
-  border-color: @light_blue;
-  color: @orangy;
-}
-
-#learnMore p {
-  color: @dark_blue;
-}
-
-#blogText {
-  color: desaturate(@dark_blue, 10%);
 }
 
 a:link {

@@ -1,25 +1,28 @@
 <%- include('global/header', {title: "Home"}); %>
 
 <h1>Are Election Results Related to Life Expectancies?</h1>
-<h5>We took the 2016 Democratic and Republican presidential candidate votes for each state
+<h5>We took the 2020 Democratic and Republican presidential candidate votes for each state
 and compared that to the average life expectancy for each state. What we wanted to know was if there would be a correlation
 between a higher or lower life expectancies and a particular political party. Here are our results, click a state on the map below to learn more! </h5>
 
 <div class="card purple darken-4">
   <div class="card-content white-text" style="text-align:center;">
-    <h5> The national life expectancy is 78.7. </h5>
+    <h5> The national life expectancy is 78.7 <br> The Democratic candidate received 51 percent of the vote</h5>
   </div>
 </div>
 
-<div id="electionmap"></div>
-<div id="lifemap"></div>
+<div class="row">
+  <div class="col s6">
+    <div id="electionmap"></div>
+  </div>
+  <div class="col s6">
+    <div id="lifemap"></div>
+  </div>
+</div>
 
 
 <%- include ('global/footer'); %>
 <script src="js/plotly-latest.min.js"></script>
-
-<div class="row">
-  <div class="col s6">
     <script>
       let election = <%-election %>
 
@@ -70,13 +73,15 @@ between a higher or lower life expectancies and a particular political party. He
             lon: -96,
             lat: 40
           },
-          zoom: 3.5
+          zoom: 2.6
         },
-        width: 1200,
-        height: 800,
+        width: 610,
+        height: 400,
+        paper_bgcolor: '#D7B49E',
         margin: {
           t: 0,
-          b: 0
+          b: 0,
+          l: 0
         }
       };
 
@@ -96,10 +101,7 @@ between a higher or lower life expectancies and a particular political party. He
           window.open(link);
         });
       });
-    </script>
-  </div>
-  <div class="col s6">
-    <script>
+
       let data2 = [{
         type: "choroplethmapbox",
         name: "Life Expectancy",
@@ -137,13 +139,15 @@ between a higher or lower life expectancies and a particular political party. He
             lon: -96,
             lat: 40
           },
-          zoom: 3.5
+          zoom: 2.6
         },
-        width: 1200,
-        height: 800,
+        width: 610,
+        height: 400,
+        paper_bgcolor: '#D7B49E',
         margin: {
           t: 0,
-          b: 0
+          b: 0,
+          l: 0
         }
       };
 
@@ -163,8 +167,6 @@ between a higher or lower life expectancies and a particular political party. He
         });
       });
     </script>
-  </div>
-</div>
 
 </body>
 

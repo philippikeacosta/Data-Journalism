@@ -13,21 +13,6 @@ describe('checking data format', () => {
     expect(isRepresented).toBe(true);
   });
 
-  // test("All votes in election data add up to total US votes", () =>{
-  //   isRepresented = true;
-  //   addedVotes = 0;
-  //   for(let i = 1; i < election.length; i ++){
-  //     addedVotes += Float.parseFloat(election[i].Dvotes);
-  //     addedVotes += Float.parseFloat(election[i].Rvotes);
-  //     addedVotes += Float.parseFloat(election[i].Ovotes);
-  //   }
-  //   if(addedVotes != (Float.parseFloat(election[0].Dvotes) + Float.parseFloat(election[0].Rvotes) + Float.parseFloat(election[0].Ovotes))){
-  //     isRepresented = false;
-  //     console.log(addedVotes);
-  //   }
-  //   expect(isRepresented).toBe(true);
-  // });
-
   test("All % should be represented as decimals (no % sign)", () =>{
     isRepresented = true;
     election.forEach(function(currentValue,index){
@@ -48,7 +33,7 @@ describe('checking data format', () => {
     expect(isRepresented).toBe(true);
   });
 
-  test("All state names should just be the name of the state", () =>{
+  test("All state names should just be the name of the state (except for US total)", () =>{
     //use array of states
     isRepresented = true;
     for(let i = 1; i < lifeExpect.length; i ++){
@@ -56,21 +41,11 @@ describe('checking data format', () => {
         isRepresented = false;
       }
     }
-    // lifeExpect.forEach(function(currentValue,index){
-    //   if (states.includes(lifeExpect[index].state) == false){
-    //     isRepresented = false;
-    //   }
-    // });
     for(let i = 1; i < election.length; i ++){
       if (states.includes(election[i].state) == false){
         isRepresented = false;
       }
     }
-    // election.forEach(function(currentValue,index){
-    //   if (states.includes(election[index].state) == false){
-    //     isRepresented = false;
-    //   }
-    // });
     expect(isRepresented).toBe(true);
   });
 
@@ -132,14 +107,6 @@ describe('checking data completeness', () => { //no places represented that aren
         complete = false;
       }
     }
-    // election.forEach(function(currentValue,index){
-    //   if (states.includes(election[index].state)){
-    //     newStateArray.push(election[index].state);
-    //   }
-    //   else{
-    //     complete = false;
-    //   }
-    // });
     if(newStateArray.length != states.length){
       complete = false;
     }

@@ -44,7 +44,7 @@
 <div class="row">
   <div class="col s2">
     
-      <a href="U.S._Total.html" class="btn-block waves-effect purple lighten-3 btn-large">Previous State</a>
+      <a href="" class="btn-block waves-effect purple lighten-3 btn-large">Previous State</a>
     
   </div>
   <div class="col s8">
@@ -87,8 +87,6 @@
 
 
 
-
-
   <div class="card red darken-2">
     <div class="card-content white-text" style="text-align:center;">
       The Republican candidate won Alabama and the life expectancy was less than the national average.
@@ -96,8 +94,14 @@
   </div>
 
 
-<div id="electionpie"></div>
-<div id="lifechart"></div>
+<div class="row">
+  <div class="col s6">
+    <div id="electionpie"></div>
+  </div>
+  <div class="col s6">
+    <div id="lifechart"></div>
+  </div>
+</div>
 
 
   <footer>
@@ -120,8 +124,6 @@
 
 <script src="../js/plotly-latest.min.js"></script>
 
-<div class="row">
-  <div class="col s6">
 <script>
   let election = {"state":"Alabama","result":"R","Dvotes":"849624","Rvotes":"1441170","Ovotes":"32488","Dpercent":"0.37","Rpercent":"0.62","Opercent":"0.01"}
 
@@ -184,6 +186,8 @@
     ],
     height: 400,
     width: 600,
+    paper_bgcolor: '#D7B49E',
+    plot_bgcolor: '#D7B49E',
     showlegend: true,
     grid: {
       rows: 1,
@@ -192,10 +196,7 @@
   };
 
   Plotly.newPlot('electionpie', data, layout);
-  </script>
-</div>
-<div class="col s6">
-  <script>
+
   var data2 = [{
     x: [life.state, 'National'],
     y: [life.avg, 78.7],
@@ -211,12 +212,12 @@
     },
     height: 400,
     width: 600,
+    paper_bgcolor: '#D7B49E',
+    plot_bgcolor: '#D7B49E'
   }
 
   Plotly.newPlot('lifechart', data2, layout2);
 </script>
-</div>
-</div>
 </body>
 
 </html>
