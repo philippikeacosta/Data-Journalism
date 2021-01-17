@@ -6,13 +6,13 @@
   <div class="col s4">
     <ol>
       <li> For the first step of gathering and cleansing the data, we parse through all of the data, take information for the 50 states and DC,
-      and then organize that data in an object and create a json file to store that object </li>
+      and then organize that data in a json file </li>
       <li> Next is the build, the first part of which is precompiling, which includes deleting all of the files in
       the build folder and copying everything in the public folder. </li>
       <li> In compile, we compile all of the ejs files for the index, about page, and micro summary
       pages into html pages in the build folder </li>
       <li> Then we use Lint to check for errors and Jest to run tests on our data, ensuring the correct formatting and content </li>
-      <li> In the final part of the build, we generate documentation using Javadoc </li>
+      <li> In the final part of the build, we generate documentation using JSdoc </li>
       <li> Lastly, we display the landing page, about page, and micro summary pages with their respective text and infographics</li>
     </ol>
   </div>
@@ -125,7 +125,7 @@
   <div class="col s3">
     <h3> Achievability </h3>
     <ul>
-      <li> D3's choropleth map makes making maps very achievable</li>
+      <li> Plotly's choropleth map makes making maps very achievable</li>
       <li> Other forms of charts and text are also intuitive to make</li>
     </ul>
   </div>
@@ -139,17 +139,14 @@
         Landing page uses side by side maps with election results and life expectancies respectively, which we chose to allow for an easy visual comparison between the two data sets
       </li>
       <li>
-        We decided upon an interactive combined map that incorporates both data sets to allows users to easily navigate to individual state pages
-      </li>
-      <li>
         State micro pages begin with a brief text-based summary and comparison to national data in order for viewers to both understand the data and the context for the data
       </li>
       <li>
-        Below that is a diagram that compares state data to national data
+        Below that are diagrams that compare state data to national data for both election results and life expectancy, giving viewers detailed visual representation of the comparison between the state and national data
       </li>
       <li>
-        Underneath that are side by side diagrams of the individual data with a detailed text summary in the middle, in order to give viewers a detailed explanations of the graphs and increasing understandability
-      </li>
+        We also have a text summary that shows the party that won the state and qualitatively compares the life expectancy data to the national value
+        </li>
     </ol>
   </div>
 </div>
