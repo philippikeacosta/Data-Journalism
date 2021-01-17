@@ -9,9 +9,9 @@
     <% } %>
   </div>
   <div class="col s8">
-    <h2>
+    <h1>
       <%=data.state%>
-    </h2>
+    </h1>
   </div>
   <div class="col s2">
     <% if(nextState === undefined){ %>
@@ -43,6 +43,27 @@
     <%=data2.avg%>. The national life expectancy is 78.7.
   </div>
 </div>
+
+<% let lifeExpectancyCompare = 'greater'; %>
+<% if(data2.avg < 78.7 ){ %>
+  <% lifeExpectancyCompare = 'less'; %>
+<% } %>
+
+<%console.log(lifeExpectancyCompare)%>
+
+<% if(data.result == "D"){ %>
+  <div class="card light-blue accent-2">
+    <div class="card-content white-text" style="text-align:center;">
+      The Democratic candidate won <%=data2.state%> and the life expectancy was <%=lifeExpectancyCompare%> than the national average.
+    </div>
+  </div>
+<% } else{ %>
+  <div class="card red darken-2">
+    <div class="card-content white-text" style="text-align:center;">
+      The Republican candidate won <%=data2.state%> and the life expectancy was <%=lifeExpectancyCompare%> than the national average.
+    </div>
+  </div>
+<% } %>
 
 <div id="electionpie"></div>
 <div id="lifechart"></div>
