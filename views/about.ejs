@@ -1,10 +1,10 @@
 <%- include('global/header', {title: "About"}); %>
 <div class="row">
   <div class="col s6 offset-s1">
-    <img src="images/Pipeline.png" alt="Build Pipeline" width="600" height="500">
+    <img src="images/Pipeline.png" alt="Build Pipeline" width="500" height="400">
   </div>
   <div class="col s4">
-    <ul>
+    <ol>
       <li> For the first step of gathering and cleansing the data, we parse through all of the data, take information for the 50 states and DC,
       and then organize that data in an object and create a json file to store that object </li>
       <li> Next is the build, the first part of which is precompiling, which includes deleting all of the files in
@@ -13,11 +13,8 @@
       pages into html pages in the build folder </li>
       <li> Then we use Lint to check for errors and Jest to run test on our data, ensuring the correct formatting and content </li>
       <li> In the final part of the build, we generate documentation using Javadoc </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-      <li> </li>
-    </ul>
+      <li> Lastly, we display the landing page, about page, and micro summary pages with their respective text and infographics</li>
+    </ol>
   </div>
 </div>
 

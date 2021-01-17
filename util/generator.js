@@ -24,6 +24,8 @@ for(let i = 0; i<51; i++){
     filename: __dirname + '/../views/micro.ejs',
     data: election[i+1],
     data2: life[i],
+    nextState: election[i+2],
+    previousState: election[i],
     election: JSON.stringify(election[i+1]),
     life: JSON.stringify(life[i]),
     Dpercent: election[i+1].Dpercent * 100,

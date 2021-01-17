@@ -14,14 +14,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "precompile": "node util/precompile.js",
+    "compile:precompile": "node util/precompile.js",
     "compile:html": "node util/generator.js",
     "compile:css": "lessc src/LESS/styles.less build/css/styles.css",
-    "compile": "npm run compile:css && npm run compile:html",
+    "compile": "npm run compile:precompile && npm run compile:css && npm run compile:html",
     "lint": "jshint build/js/scripts.js",
     "test": "jest",
     "document": "jsdoc build/js/scripts.js -d docs",
-    "build": "npm run precompile && npm run compile && npm run document",
+    "build": "npm run compile",
     "build:start": "start http://127.0.0.1:8080 && node ./node_modules/http-server/bin/http-server ./build"
   },
   "repository": {

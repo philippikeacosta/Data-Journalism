@@ -15,9 +15,9 @@
   <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="../css/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
 
-    <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="../css/styles.css">
 
     <!-- <link rel="stylesheet" type="text/css" href="./inspector.css"> -->
 
@@ -30,26 +30,56 @@
 <!-- insert navbar here -->
 <nav class="nav-extended purple darken-4">
  <div class="nav-wrapper">
-   <a href="#" class="brand-logo"> Life Expectancies and Elections </a>
+   <a href="#" class="brand-logo white-text"> Life Expectancies and Elections </a>
    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
    <ul id="nav-mobile" class="right hide-on-med-and-down">
-     <li><a href="index.html" class="btn light-blue accent-2">Home</a></li>
-     <li><a href="about.html" class="btn #d32f2f red darken-2">About</a></li>
+     <li><a href="../index.html" class="btn light-blue accent-2">Home</a></li>
+     <li><a href="../about.html" class="btn #d32f2f red darken-2">About</a></li>
    </ul>
  </div>
 </nav>
 
 
 
-<h2>Washington</h2>
-<body>In Washington, the Democratic candidate received 57.99999999999999 percent of the vote and 2369612 votes,
-   while the Republican candidate received 39 percent of the vote and 1584651 votes.<br>
-   Nationally, the Democratic candidate received 51 percent of the vote and 81282376 votes,
-   while the Republican candidate received 47 percent of the vote and 74222576 votes.
+<div class="row">
+  <div class="col s2">
+    
+      <a href="Virginia.html" class="btn-block waves-effect purple lighten-3 btn-large">Previous State</a>
+    
+  </div>
+  <div class="col s8">
+    <h2>
+      Washington
+    </h2>
+  </div>
+  <div class="col s2">
+    
+      <a href="West_Virginia.html" class="btn-block waves-effect purple lighten-3 btn-large">Next State</a>
+    
+  </div>
+</div>
 
-   <br>
-   In Washington, the average life expectancy is 80.3. The national life expectancy is 78.7.
- </body>
+<div class="card purple darken-4">
+  <div class="card-content white-text" style="text-align:center;">
+    In
+    Washington, the Democratic candidate received
+    57.99999999999999 percent of the vote and
+    2369612 votes,
+    while the Republican candidate received
+    39 percent of the vote and
+    1584651 votes.<br>
+    Nationally, the Democratic candidate received 51 percent of the vote and 81282376 votes,
+    while the Republican candidate received 47 percent of the vote and 74222576 votes.
+  </div>
+</div>
+
+<div class="card purple darken-4">
+  <div class="card-content white-text" style="text-align:center;">
+    In
+    Washington, the average life expectancy is
+    80.3. The national life expectancy is 78.7.
+  </div>
+</div>
 
 <div id="electionpie"></div>
 <div id="lifechart"></div>
@@ -57,6 +87,9 @@
 
   <footer>
     <h6>Created by Philip Pike-Acosta and Frances Cohen (2020)</h6>
+    <a href="https://cookpolitical.com/2020-national-popular-vote-tracker"> click here for the election data </a>
+    <br>
+    <a href="https://catalog.data.gov/dataset/u-s-life-expectancy-at-birth-by-state-and-census-tract-2017-68c38"> click here for the life expectancy data </a>
 
     <!-- <script src="../js/plotly-latest.min.js"></script>
     <script src="js/plotly-latest.min.js"></script> -->
@@ -71,95 +104,104 @@
   </footer>
 
 <script src="../js/plotly-latest.min.js"></script>
-<script>
 
+<div class="row">
+  <div class="col s6">
+<script>
   let election = {"state":"Washington","result":"D","Dvotes":"2369612","Rvotes":"1584651","Ovotes":"133368","Dpercent":"0.58","Rpercent":"0.39","Opercent":"0.03"}
 
   let life = {"state":"Washington","avg":"80.3"}
 
-  console.log(election.state);
-    console.log(life);
+  let electionpie = document.getElementById("electionpie");
+  let lifechart = document.getElementById("lifechart");
 
-let electionpie = document.getElementById("electionpie");
-let lifechart = document.getElementById("lifechart");
-
-var data = [{
-  values: [election.Dvotes, election.Rvotes, election.Ovotes],
-  labels: ['Democrat', 'Republican', 'Other'],
-  marker: {
-  colors: [
-    'rgb(0, 170, 255)',
-    'rgb(184,12,9)',
-    'rgb(82, 98, 135)'
-  ]
-},
-  domain: {column: 0},
-  name: 'Votes',
-  hoverinfo: 'label+percent+name',
-  hole: .4,
-  type: 'pie'
-},
-{
-  values: [81282376, 74222576, 2890419],
-  labels: ['Democrat', 'Republican', 'Other'],
-  domain: {column: 1},
-  name: 'Votes',
-  hoverinfo: 'label+percent+name',
-  hole: .4,
-  type: 'pie'
-}];
-
-var layout = {
-  title: 'Vote Share in 2020 Presidential Election',
-  annotations: [
-    {
-      font: {
-        size: 20
+  var data = [{
+      values: [election.Dvotes, election.Rvotes, election.Ovotes],
+      labels: ['Democrat', 'Republican', 'Other'],
+      marker: {
+        colors: [
+          'rgb(0, 170, 255)',
+          'rgb(184,12,9)',
+          'rgb(82, 98, 135)'
+        ]
       },
-      showarrow: false,
-      text: election.state,
-      x: 0,
-      y: -0.2
+      domain: {
+        column: 0
+      },
+      name: 'Votes',
+      hoverinfo: 'label+percent+name',
+      hole: .4,
+      type: 'pie'
     },
     {
-      font: {
-        size: 20
+      values: [81282376, 74222576, 2890419],
+      labels: ['Democrat', 'Republican', 'Other'],
+      domain: {
+        column: 1
       },
-      showarrow: false,
-      text: 'National',
-      x: 0.85,
-      y: -0.2
+      name: 'Votes',
+      hoverinfo: 'label+percent+name',
+      hole: .4,
+      type: 'pie'
     }
-  ],
-  height: 400,
-  width: 600,
-  showlegend: true,
-  grid: {rows: 1, columns: 2}
-};
+  ];
 
-Plotly.newPlot('electionpie', data, layout);
+  var layout = {
+    title: 'Vote Share in 2020 Presidential Election',
+    annotations: [{
+        font: {
+          size: 20
+        },
+        showarrow: false,
+        text: election.state,
+        x: 0,
+        y: -0.2
+      },
+      {
+        font: {
+          size: 20
+        },
+        showarrow: false,
+        text: 'National',
+        x: 0.85,
+        y: -0.2
+      }
+    ],
+    height: 400,
+    width: 600,
+    showlegend: true,
+    grid: {
+      rows: 1,
+      columns: 2
+    }
+  };
 
-var data2 = [
-  {
+  Plotly.newPlot('electionpie', data, layout);
+  </script>
+</div>
+<div class="col s6">
+  <script>
+  var data2 = [{
     x: [life.state, 'National'],
     y: [life.avg, 78.7],
-    marker:{
-  color: ['#B80C09', 'rgba(222,45,38,0.8)']
-},
+    marker: {
+      color: ['#B80C09', 'rgba(222,45,38,0.8)']
+    },
     type: 'bar'
+  }];
+  var layout2 = {
+    title: 'Life Expectancy',
+    yaxis: {
+      title: 'Life Expectancy (years)'
+    },
+    height: 400,
+    width: 600,
   }
-];
-var layout2 = {
-title: 'Life Expectancy',
- yaxis: {title: 'Life Expectancy (years)'},
-  height: 400,
-  width: 600,
-}
 
-Plotly.newPlot('lifechart', data2, layout2);
-
-
+  Plotly.newPlot('lifechart', data2, layout2);
 </script>
+</div>
+</div>
 </body>
 
 </html>
